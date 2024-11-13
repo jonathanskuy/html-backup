@@ -60,3 +60,48 @@ body {
     margin-top:20px;
     color:#9f92a6;
 }
+
+.reviewer-image {
+    display:flex;
+    justify-content:center;
+}
+
+.reviewer-image img {
+    width:1800px;
+    height:auto;
+}
+
+.reviewer-name {
+    display:flex;
+    justify-content:center;
+    font-weight:bold;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+
+.reviewer-occupation {
+    display:flex;
+    justify-content:center;
+    color:#9f92a6;
+    margin-bottom:10px;
+}
+
+.review-text {
+    display:flex;
+    justify-content:center;
+    color:#9f92a6;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.prev-next-review {
+    display:flex;
+    justify-content:center;
+    gap:5px;
+    margin-bottom:5px;
+}
+
+.random-review {
+    display:flex;
+    justify-content:center;
+}
