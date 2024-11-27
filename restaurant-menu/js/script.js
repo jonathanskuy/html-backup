@@ -1,18 +1,18 @@
 const reviews = [
     {
-        image: "img/reviewer-man.jpeg",
+        image: "../img/reviewer-man.jpeg",
         name: "Sam Smith",
         occupation: "Web Developer",
         text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up."
     },
     {
-        image: "img/reviewer-woman.jpg",
+        image: "../img/reviewer-woman.jpg",
         name: "Jessica White",
         occupation: "UI/UX Designer",
         text: "Shaman humblebrag pickled coloring book salvia hoodie. Cold-pressed four dollar toast everyday carry."
     },
     {
-        image: "img/reviewer-man2.jpg",
+        image: "../img/reviewer-man2.jpg",
         name: "John Doe",
         occupation: "Software Engineer",
         text: "Chambray pop-up activated charcoal, four loko poke 8-bit succulents aesthetic paleo everyday carry."
