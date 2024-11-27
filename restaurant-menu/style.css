@@ -1,10 +1,166 @@
 body {
     background:#f1f5f8;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .title {
     font-size:30px;
     text-align:center;
+}
+
+header {
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+}
+
+.navigation {
+    display:flex;
+    justify-content:center;
+    padding:30px;
+}
+
+.navigation div {
+    font-size:25px;
+}
+
+.text-button {
+    margin:0 20px;
+}
+
+.text-button a {
+    text-decoration:none;
+    color:black;
+}
+
+.home {
+    display:flex;
+}
+
+.jumbotron-half {
+    flex:1;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:10px;
+    position:relative;
+    height:100vh;
+}
+
+.jumbotron-half:nth-child(2) {
+    justify-content:flex-end;
+}
+
+.slogan-small {
+    font-size:30px;
+    font-weight:bold;
+    display:flex;
+    margin-left:70px;
+    margin-bottom:-200px;
+}
+
+.slogan-large {
+    font-size:90px;
+    font-weight:bold;
+    display:flex;
+    margin-left:70px;
+    margin-top:-200px;
+}
+
+.jumbotron-half:nth-child(2) img {
+    width:400px;
+    height:auto;
+    position:absolute;
+}
+
+.jumbotron-half img:nth-child(1) {
+    top:20%;
+    left:10%;
+}
+
+.jumbotron-half img:nth-child(2) {
+    top:0%;
+    right:4%;
+}
+
+.jumbotron-half img:nth-child(3) {
+    top:40%;
+    right:4%;
+}
+
+.about {
+    display:flex;
+    margin:100px;
+    gap:50px;
+    justify-content:center;
+}
+
+.about-image {
+    border:3px dotted black;
+    padding:20px;
+}
+
+.about-image img {
+    width:700px;
+    height:auto;
+}
+
+.about-text {
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    justify-content:center;
+}
+
+.about-title {
+    font-size:50px;
+    font-weight:bold;
+    margin-bottom:50px;
+}
+
+.about-description {
+    width:80%;
+    text-align:justify;
+}
+
+.signature {
+    margin-top:50px;
+}
+
+.signature img {
+    width:50%;
+    height:auto;
+}
+
+.service-list {
+    display:flex;
+    flex-wrap:wrap;
+    margin:20px 100px;
+}
+
+.service {
+    display:flex;
+    max-width:400px;
+    margin:100px 30px;
+}
+
+.service-number {
+    color:#f7c532;
+    font-size:50px;
+}
+
+.service-text {
+    margin-left:25px;
+}
+
+.service-title {
+    font-size:40px;
+    font-weight:bold;
+}
+
+.service-description {
+    font-size:20px;
+    margin-top:50px;
 }
 
 .header {
@@ -16,8 +172,11 @@ body {
     border:5px solid #c59d5f;
     border-radius:5px;
     color:#c59d5f;
-    padding:10px;
+    padding:15px;
     margin:0 50px;
+    width:50px;
+    height:20px;
+    text-align:center;
 }
 
 .catalog-row {
